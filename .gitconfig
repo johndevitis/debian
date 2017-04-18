@@ -1,0 +1,9 @@
+[user]
+	name = John DeVitis
+	email = johndevitis@gmail.com
+[alias]
+	logg = log --oneline --decorate --graph --all --max-count 12
+	loggg = log --oneline --decorate --graph --all --max-count 24
+	logggg = log --oneline --decorate --graph --all
+[color]
+	ui = auto

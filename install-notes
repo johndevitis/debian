@@ -9,6 +9,7 @@ sudo
 
 
 apt-get install
+	vim
 	octave	
 	xfce4-terminal
 	git
@@ -38,4 +39,5 @@ git
 		Username: <type your username>
 		Password: <type your password>
 
+	color-code:
 

@@ -1,0 +1,32 @@
+# jdv 04182017
+
+# setup sudo
+# 	as su:
+# 	apt-get install sudo
+# 	adduser <user> sudo
+# 	# log out/in or restart
+# 	groups % to verify user was added to sudo group
+# 	# using visudo to edit sudoers file, add the line:
+# 	%sudo ALL=(ALL) NOPASSWD:ALL
+
+# copy bash aliases file to home directory
+cp .bash_aliases ~/.bash_aliases
+
+# add 32bit architecture repos - https://wiki.debian.org/Multiarch/HOWTO
+sudo dpkg --add-architecture i386
+
+# install aptitude, update repositories, and attempt to upgrade system
+sudo apt-get install aptitude
+sudo aptitude update && sudo aptitude upgrade
+
+
+# install packages in ./install script
+chmod +x installs
+./installs
+
+
+
+# TODO
+# git - configure
+
+# git - color scheme

@@ -1,0 +1,6 @@
+sudo apt-get install -y aptitude vim octave xfce4-terminal git htop neofetch build-essential curl chromium 
+
+
+# install virtualbox
+#sudo touch /etc/apt/sources.list.d/virtualbox.list
+
