@@ -1,0 +1,41 @@
+
+sudo
+	su
+	apt-get install sudo
+	adduser john sudo
+	# log out/in
+	groups # to verify user added to groups
+	%sudo ALL=(ALL) NOPASSWD:ALL # no password required for sudo
+
+
+apt-get install
+	octave	
+	xfce4-terminal
+	git
+	htop
+	neofetch
+	build-essential
+	curl
+		
+
+aliases:
+	~/.bash_aliases
+	alias update='sudo aptitude update && sudo aptitude upgrade'
+	alias ll='ls -l'
+	alias la='ls -A'
+	alias l='ls -CF'
+
+virtualbox:
+	https://wiki.debian.org/VirtualBox
+
+multiarch - add repos for 32bit architectures - https://wiki.debian.org/Multiarch/HOWTO
+	sudo dpkg --add-architecture i386
+
+git
+	store credentials:
+		$ git config credential.helper store
+		$ git push http://example.com/repo.git
+		Username: <type your username>
+		Password: <type your password>
+
+
