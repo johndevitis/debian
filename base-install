@@ -6,3 +6,4 @@ sudo apt-get install -y aptitude vim octave xfce4-terminal git htop neofetch bui
 
 lshw
 arp-scan
+pandoc

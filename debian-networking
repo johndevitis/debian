@@ -1,0 +1,25 @@
+
+# release adn renew ip addresdses
+sudo dhclient
+
+# restart networking service and load new config
+#sudo /etc/init.d/networking restart
+sudo service network-manager restart
+
+virtual box host-only network details. ref: http://coding4streetcred.com/blog/post/VirtualBox-Configuring-Static-IPs-for-VMs
+
+	ipv4 address
+		169.254.62.191
+	ipv4 network mask
+		255.255.0.0
+
+
+# list network devices
+ls /sys/class/net
+
+# list all devices of a interface and network
+sudo arp-scan --interface=eth0 --localnet
+
+
+#crio-proto
+#	169.254.62.215
