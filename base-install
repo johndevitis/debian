@@ -1,4 +1,4 @@
-sudo apt-get install -y aptitude vim octave xfce4-terminal git htop neofetch build-essential curl chromium net-tools tree
+sudo apt-get install -y aptitude vim octave xfce4-terminal git htop neofetch build-essential curl chromium net-tools tree octave pandoc lshw arp-scan
 
 
 # install virtualbox
