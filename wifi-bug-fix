@@ -1,0 +1,15 @@
+debian 9.3 bug #835822: mac address randomization breaks WiFi with various drivers
+
+psuedo fix:
+
+#edit NetworkManager config file:
+sudo vim /etc/NetworkManager/NetworkManager.conf
+
+#add the following lines:
+
+[device]
+wifi.scan-rand-mac-address=no
+
+# restart service
+sudo systemctl restart NetworkManager
+
