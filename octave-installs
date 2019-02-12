@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+sudo apt install octave octave-audio octave-communications octave-control octave-data-smoothing octave-econometrics octave-ga octave-general octave-geometry octave-image octave-io octave-linear-algebra octave-miscellaneous octave-missing-functions octave-mpi octave-nan octave-nlopt octave-nnet octave-optim octave-optiminterp octave-parallel octave-pkg-dev octave-signal octave-sockets octave-specfun octave-splines octave-statistics octave-strings octave-struct octave-symbolic octave-time octave-tsa octave-vlfeat
